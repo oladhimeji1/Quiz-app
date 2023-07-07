@@ -1,0 +1,149 @@
+.admin-panel{
+    max-width: 1000px;
+    min-width: 500px;
+    min-height: 500px;
+    max-height: 600px;
+    margin: 50px auto 0;
+    padding: 20px 10px 20px;
+    border: 1px solid green;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+.side-bar{
+    position: relative;
+    height: 100%;
+    background-color: white;
+}
+.side-bar-head{
+    color: green;
+    position: relative;
+    display: flex;
+    margin: 10px 30px 40px;
+    font-size: 25px;
+}
+.admin-panel > section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+.side-bar-items{
+    display: block;
+}
+.side-bar-items ul li{
+    list-style: none;
+    font-size: 12px;
+    padding: 10px 10px;
+    height: 30px;
+    color: green;
+}
+.side-bar-items ul li:hover{
+    color: #ffff;
+    cursor: pointer;
+    background-color: green;
+    height: 30px;
+}
+.side-bar-items p{
+    position: absolute;
+    bottom: 10px;
+    font-size: 12px;
+    width: 100%;
+    padding: 10px 10px;
+    color: red;
+    height: 30px;
+}
+.side-bar-items p:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.main-body{
+    margin: 10px 20px 0;
+}
+.main-body header{
+    display: flex;
+    justify-content: space-around;
+}
+.main-body div small{
+    font-size: 10px;
+}
+.main-body header input{
+    outline: none;
+   position: relative;
+   padding: 0 5px;
+   left: 50px;
+   top: 10px;
+   height: 20px;
+   width: 170px;
+}
+.main-body header i{
+   position: relative;
+   left: 210px;
+   top: 15px;
+   z-index: 9;
+   font-size: 12px;
+}
+.main-body .container{
+   display: flex;
+   justify-content: space-between;
+}
+.main-body .container .card{
+    background-color: rgb(22, 114, 22);
+    height: 110px;
+    width: 110px;
+    margin: 10px 30px 10px 0px;
+    border-radius: 10px;
+    color: white;
+}
+.card i{
+    position: relative;
+    left: 40px;
+    top: 20px;
+    font-size: 30px;
+}
+.card p{
+    position: relative;
+    left: 35px;
+    top: 30px;
+}
+.card small{
+    position: relative;
+    display: flex;
+    left: 20px;
+    top: 35px;
+    justify-content: center;
+}
+.main-body .content{
+    color: rgb(12, 68, 12);
+    background-color: rgba(0, 128, 0, 0.259);
+    border-radius: 10px;
+    position: relative;
+    height: 80%;
+    width: 100%;
+}
+.main-body .content div{
+    display: flex;
+    justify-content:space-between;
+}
+.main-body .content p{
+    font-size: 15px;
+    margin: 5px 20px 10px;
+}
+.main-body .content nav{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid green;
+}
+.main-body .content nav li{
+    list-style-type: none;
+    font-size: 12px;
+    border-bottom: 1px solid rgba(0, 128, 0, 0);
+}
+.main-body .content nav li:hover{
+    border-bottom: 1px solid rgb(0, 128, 0);
+    background-color: rgba(0, 128, 0, 0.046);
+}
+.main-body .content .particiDetails tr th, td{
+    padding: 0 100px 0 10px;
+}

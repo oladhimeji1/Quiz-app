@@ -1,0 +1,93 @@
+.login-page{
+    padding: 20% 40px 30% 40px;
+}
+body{
+    /* background-color: rgba(0, 255, 255, 0.33); */
+  }
+.login-page{
+    font-family: 'Roboto', sans-serif;
+    max-width: 350px;
+    min-height: 94%;
+    max-height: 94%;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    padding: 50px 40px 160px 40px;
+}
+.login-page h2{
+    color: green;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 20px auto 30px;
+}
+.login-page footer{
+    color: green;
+    text-align: center;
+    position: relative;
+    top: 7rem;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+}
+.login-page input::placeholder{
+    font-size: 11px;
+    position: relative;
+    bottom: 2px;
+    color: rgb(208, 200, 200);
+}
+.login-page img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 30%;
+}
+.login-page input{
+    border: 2px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    margin: 20px auto;
+    font-size: 13px;
+    padding: 5px 5px;
+    width: 250px;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    outline: none;
+}
+.login-page button{
+    cursor: pointer;
+    padding: 0;
+    font-size: 13px;
+    height: 30px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 3px solid green;
+    text-align: center;
+    margin: 20px auto;
+    background-color: green;
+    color: white;
+}
+.login-page button span{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.login-page button:hover{
+    border: 3px solid  rgb(8, 73, 8);
+    background-color: rgb(8, 73, 8);
+    color: white;
+}
+.login-page i{
+    color: green;
+    position: relative;
+    left: 0px;
+    bottom: 100px;
+}
+.login-page i:hover{
+cursor: pointer;
+color: rgb(93, 163, 93);
+text-shadow: 2px 2px 5px black;
+}

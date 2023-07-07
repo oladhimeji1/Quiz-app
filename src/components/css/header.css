@@ -1,0 +1,11 @@
+.quest-title{
+    padding: 15px 0px 15px 0px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    align-items: center;
+    color: green;
+    width: 500px;
+    margin: 0px auto;
+    background-color: #ffff;
+}

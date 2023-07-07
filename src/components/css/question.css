@@ -1,0 +1,144 @@
+/* .option, .button{
+    border: 1px solid rgba(0, 128, 0, 0.182);
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 13px;
+    padding: 10px;
+    width: 400px;
+    margin: 20px auto;
+    color: green;
+    cursor: pointer;
+} */
+h3{
+    margin: 0 20px;
+    font-size: 18px;
+}
+.question{
+    border: 1px solid rgba(0, 128, 0, 0);
+    /* border-radius: 10px; */
+    margin: 0 20px;
+    font-size: 13px;
+    padding: 10px;
+    width: 400px;
+    margin: 20px auto;
+    color: green;
+}
+
+
+.option:hover{
+    background-color: rgba(0, 128, 0, 0.476);
+    color: #ffff;
+    border: 1px solid rgba(0, 128, 0, 0.386)
+}
+@media only screen and (min-width: 601px) {
+    .quest-container {
+       background-color: white;
+        margin: 0 auto;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 500px;
+    }
+    .option, .button{
+        border: 1px solid rgba(0, 128, 0, 0.182);
+        border-radius: 10px;
+        margin: 20px;
+        font-size: 13px;
+        padding: 10px;
+        width: 400px;
+        margin: 20px auto;
+        color: green;
+        cursor: pointer;
+    }
+    .button{
+        width: 65px;
+    }
+    .next-prev{
+        display: flex;
+        justify-content: space-around;
+        width: 400px;
+    }
+    .question-numbers{
+        width: 400px;
+        margin: 40px auto 60px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .quest-container{
+        background-color: #ffff;
+        margin: 0 auto;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 450px;
+    }
+    .option, .button{
+        border: 1px solid rgba(0, 128, 0, 0.182);
+        border-radius: 10px;
+        margin: 20px;
+        font-size: 13px;
+        padding: 10px;
+        width: 300px;
+        color: green;
+        cursor: pointer;
+    }
+    .button{
+        width: 65px;
+    }
+    .next-prev{
+        display: flex;
+        justify-content: space-around;
+        width: 320px;
+    }
+    .question-numbers{
+        width: 300px;
+        text-align: center;
+        margin: 20px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+.active{
+    color: #ffff;
+    background-color: rgba(0, 128, 0, 0.8);
+}
+.button{
+    width: 65px;
+    cursor: pointer;
+}
+.dialogue-box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.182);
+    left: 0;
+}
+.dialogue-box div{
+    position: relative;
+    width: 200px;
+    padding: 20px 5px;
+    background-color: rgb(13, 166, 13);
+    margin: 150px auto 0;
+    color: #ffff;
+}
+.dialogue-box div button{
+    display: block;
+    margin: 10px auto 0;
+    width: 100px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.285);
+}
+.dialogue-box div button:hover{
+    cursor: pointer;
+}
+.dialogue-box div i{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    color: red;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.dialogue-box div i:hover{
+    cursor: pointer;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.285);
+}
